@@ -1,4 +1,4 @@
-# 🕷️ deepcrawler.ai
+# deepcrawler.ai
 
 > **An intelligent web crawler & parser powered by Streamlit, Selenium, and local LLMs with LangChain + Ollama**
 
@@ -48,14 +48,14 @@
 
 ## 📂 Project Structure
 
-\`\`\`bash
+```bash
 deepcrawler/
 ├── main.py           # Streamlit UI
 ├── scrape.py         # Scraping & cleaning logic
 ├── parse.py          # LangChain + Ollama parsing
 ├── requirements.txt  # Python dependencies
 └── .env              # Optional: Environment variables
-\`\`\`
+```
 
 ---
 
@@ -74,23 +74,23 @@ deepcrawler/
 
 ### 📦 1. Install Requirements
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 🧠 2. Run Ollama with your preferred model
 
-\`\`\`bash
+```bash
 ollama run llama3:8b
-\`\`\`
+```
 
 > Ensure Ollama is running locally at \`http://localhost:11434\` (default)
 
 ### ▶️ 3. Launch the App
 
-\`\`\`bash
+```bash
 streamlit run main.py
-\`\`\`
+```
 
 ---
 
@@ -110,9 +110,9 @@ See \`render.yaml\` for one-click deployment.
 
 You can optionally set these in a \`.env\` file:
 
-\`\`\`env
+```env
 OLLAMA_BASE_URL=http://localhost:11434
-\`\`\`
+```
 
 ---
 
