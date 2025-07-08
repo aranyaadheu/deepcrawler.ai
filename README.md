@@ -102,8 +102,6 @@ You can deploy this app easily on:
 - **Localhost** or private servers
 - *(Not compatible with Hugging Face Spaces due to Ollama dependency)*
 
-See \`render.yaml\` for one-click deployment.
-
 ---
 
 ## 🔐 Environment Variables
